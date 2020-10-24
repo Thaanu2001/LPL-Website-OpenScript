@@ -236,7 +236,7 @@ img {
     background-color: #002857;
     height: 20%;
     padding-top: 60px;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
     /* padding-left: 120px; */
 }
 
@@ -260,6 +260,7 @@ img {
     display: flex;
     justify-content: center;
 }
+
 /*  */
 
 .matches-card-1 {
@@ -307,7 +308,7 @@ img {
     background-repeat: no-repeat;
     height: 20%;
     padding-top: 60px;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
     /* padding-left: 120px; */
 }
 
@@ -329,6 +330,99 @@ img {
 }
 
 .matches-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.sponsorship-section {
+    height: 20%;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-color: #073F82;
+}
+
+.platinum-sponsor-text {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: white;
+}
+
+.platinum-sponsor-image-div {
+    text-align: center;
+}
+
+.platinum-sponsor-image {
+    text-align: center;
+    align-content: center;
+    height: 150px;
+    width: inherit;
+    margin-bottom: 30px;
+}
+
+.broadcast-text {
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: white;
+    margin-right: 150px;
+}
+
+.partner-text {
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: white;
+    margin-right: 150px;
+}
+
+.media-text {
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: white;
+}
+
+.broadcast-image {
+    /* text-align: center; */
+    width: 200px;
+    height: inherit;
+    margin-left: 50px;
+}
+
+.partner-image {
+    /* text-align: center; */
+    width: 300px;
+    height: inherit;
+    margin-left: -40px;
+}
+
+.media-image {
+    /* text-align: center; */
+    width: 400px;
+    height: inherit;
+    margin-left: -35px;
+}
+.broadcast-image-div{
+    float: left;
+}
+.partner-image-div{
+    float: left;
+}
+.media-image-div{
+    float: left;
+}
+
+.sponsor-strip{
     display: flex;
     justify-content: center;
 }
@@ -384,6 +478,7 @@ img {
         opacity: 1
     }
 }
+
 .prev1, .next1 {
     z-index: 800;
     cursor: pointer;
@@ -411,6 +506,7 @@ img {
 .prev1:hover, .next1:hover {
     color: rgba(0, 0, 0, 0.8);
 }
+
 /** Header CSS */
 
 .sticky {
