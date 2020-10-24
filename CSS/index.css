@@ -1,29 +1,47 @@
-#container{
-    width: 1000px;
-    height: 1000px;
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 3000px;
 }
-#header{
-    width: 1890px;
-    height:100px;
-    background-color:#FFFFFF;
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.ul-tag {
     margin: 0px;
     padding: 0px;
 }
-#header a:hover{
-    color:#3D3D3D;
+
+.header {
+    position: fixed;
+    width: 100%;
+    margin: 0px !important;
+    padding: 0px !important;
+    padding-right: 40px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.1);
 }
-#header a{
+
+#header a:hover {
+    color: #3D3D3D;
+}
+
+#header a {
     float: right;
     text-align: right;
-    padding: 10px 12px;
-    font-size: 32px;
-    font-weight: 600pxx;
+    padding: 18px 22px;
+    font-size: 22px;
+    font-weight: 600;
     font-family: 'Poppins';
     color: black;
     text-decoration: none;
 }
-#header img{
-    width: 150px;
-    height: 100px
-}
 
+#header img {
+    padding-top: 5px;
+    padding-left: 20px;
+    width: 100px;
+    height: 60px
+}
