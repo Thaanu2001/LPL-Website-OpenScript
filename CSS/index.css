@@ -1,8 +1,417 @@
 body {
     margin: 0px;
     padding: 0px;
-    height: 3000px;
 }
+
+img {
+    width: 100%;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+}
+
+.top-left {
+    position: absolute;
+    text-align: left;
+    top: 220px;
+    left: 120px;
+    font-size: 70px;
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 700;
+}
+
+.schedule-button {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    border-width: 0px;
+    background-color: #4DA4E8;
+    color: white;
+    outline-width: 0px;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.schedule-button:hover {
+    background-color: #2898EF;
+}
+
+.live-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    /* float: left; */
+}
+
+.team-1 {
+    /* top: 220px; */
+    left: 50%;
+    font-size: 60px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    float: left;
+    margin-right: 60px;
+}
+
+.vs {
+    margin-top: -50px;
+    /* top: 220px; */
+    /* left: 120px; */
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 120px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    /* float: right; */
+    float: left;
+}
+
+.team-2 {
+    /* top: 220px; */
+    left: 120px;
+    font-size: 60px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    float: left;
+    margin-left: 60px;
+    text-align: right;
+}
+
+.logo {
+    margin-top: -50px;
+    height: 300px;
+    width: 300px;
+}
+
+.match-card {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(#0A55AF, #0A3365);
+    width: 30%;
+    margin-top: -50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 20px;
+    padding-bottom: 40px;
+}
+
+.live-card {
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: white;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.1);
+    background-color: #F11B1B;
+    text-align: right;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-left: 380px;
+    /* margin-right: 120px; */
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 16px;
+    /* padding-bottom: 40px; */
+}
+
+.batting-text-1 {
+    margin-top: 35px;
+    margin-left: 25px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: white;
+    float: left;
+}
+
+.batting-text-2 {
+    margin-top: 35px;
+    margin-right: 25px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: white;
+    float: right;
+}
+
+.score-text-1 {
+    margin-top: 60px;
+    margin-left: -68px;
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 800;
+    color: white;
+    float: left;
+}
+
+.score-text-2 {
+    margin-top: 60px;
+    margin-right: -75px;
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 800;
+    color: white;
+    float: right;
+}
+
+.over-text-1 {
+    margin-top: 110px;
+    margin-left: -78px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: white;
+    float: left;
+}
+
+.over-text-2 {
+    margin-top: 110px;
+    margin-right: -100px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: white;
+    float: right;
+}
+
+.rr-text-1 {
+    margin-top: 140px;
+    margin-left: -78px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: white;
+    float: left;
+}
+
+.rr-text-2 {
+    margin-top: 140px;
+    margin-right: -100px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: white;
+    float: right;
+}
+
+.news-card-1 {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    width: 500px;
+    /* margin-top: -50px; */
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    /* /* float: left; */
+    float: right;
+    background-color: white;
+}
+
+.news-image-1 {
+    width: 500px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.news-topic-1 {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+
+.news-desc-1 {
+    font-family: 'Poppins';
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+.news-section {
+    margin-top: 100px;
+    background-color: #002857;
+    height: 20%;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    /* padding-left: 120px; */
+}
+
+.news-topic {
+    margin-left: 25px;
+    font-size: 60px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: white;
+    margin-bottom: 40px;
+    margin-left: 120px;
+}
+
+.news-container {
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+.news-cards {
+    display: flex;
+    justify-content: center;
+}
+/*  */
+
+.matches-card-1 {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
+    width: 500px;
+    /* margin-top: -50px; */
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    /* /* float: left; */
+    float: right;
+    background-color: white;
+}
+
+.matches-image-1 {
+    width: 500px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.matches-topic-1 {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 800;
+    text-align: center;
+}
+
+.matches-desc-1 {
+    font-family: 'Poppins';
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.matches-section {
+    /* margin-top: 100px; */
+    background-image: url(../assets/previous-matches-background.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: 20%;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    /* padding-left: 120px; */
+}
+
+.matches-topic {
+    margin-left: 25px;
+    font-size: 60px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    /* color: white; */
+    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.matches-container {
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+.matches-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #DBAE1D;
+    border-radius: 30px;
+}
+
+.next {
+    right: 0;
+    /* border-radius: 3px 0 0 3px; */
+    border-radius: 30px;
+}
+
+.prev:hover, .next:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+.prev1, .next1 {
+    z-index: 800;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: #DBAE1D;
+    border-radius: 30px;
+}
+
+.next1 {
+    right: 0;
+    /* border-radius: 3px 0 0 3px; */
+    border-radius: 30px;
+}
+
+.prev1:hover, .next1:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+/** Header CSS */
 
 .sticky {
     position: fixed;
@@ -16,6 +425,7 @@ body {
 }
 
 .header {
+    z-index: 1000;
     background-color: white;
     position: fixed;
     width: 100%;

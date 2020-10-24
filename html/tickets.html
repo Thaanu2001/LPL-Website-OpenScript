@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="/css/tickets.css">
+    <link rel="stylesheet" href="../css/tickets.css">
     <link
         href='https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'
         rel='stylesheet'>
@@ -13,17 +13,17 @@
     <div id="container">
         <div class="header" id="header">
             <ul class="ul-tag">
-                <a href="/html/about.html">About</a>
-                <a href="/html/tickets.html">Tickets</a>
-                <a href="/html/videos.html">Videos</a>
-                <a href="/html/matches.html">Matches</a>
-                <a href="/index.html">Home</a>
-                <img src="/LPL Logo.jpg" />
+                <a href="about.html">About</a>
+                <a href="tickets.html">Tickets</a>
+                <a href="videos.html">Videos</a>
+                <a href="matches.html">Matches</a>
+                <a href="../index.html">Home</a>
+                <img src="../LPL Logo.jpg" />
             </ul>
         </div>
     </div>
     <div class="container">
-        <img class="main-cover" src="/assets/cover-image.jpg" alt="cover image">
+        <img class="main-cover" src="../assets/cover-image.jpg" alt="cover image">
         <div class="top-left">Tickets</div>
     </div>
     <div class="match-card">
@@ -31,14 +31,15 @@
         <div class="card-text">Pallakele Cricket Stadium, Kandy</div>
         <div class="card-text">15:30 IST (05:30 GMT) 14:00 LOCAL</div>
         <!-- <div class="card-location">Pallakele Cricket Stadium, Kandy</div> -->
-        <select name="select-price" class="select-price">
+        <select name="select-price" class="select-price" >
+            <option disabled selected value="">Select Price</option>
             <option value="value-1">Rs. 2,500</option>
             <option value="value-2">Rs. 4,500</option>
             <option value="value-3">Rs. 6,500</option>
             <option value="value-4">Rs. 8,000</option>
         </select><br />
         <select name="select-price" class="select-qty">
-            <option value="value-1">1</option>
+            <option disabled selected value="">Quantity</option>
             <option value="value-2">2</option>
             <option value="value-3">3</option>
             <option value="value-4">4</option>
@@ -47,5 +48,5 @@
         <button type="button" class="buy-tickets">Buy Tickets</button>
     </div>
 
-    <script src="/js/sticky_header.js"></script>
+    <script src="../js/sticky_header.js"></script>
 </body>

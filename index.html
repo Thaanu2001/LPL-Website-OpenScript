@@ -1,22 +1,150 @@
 <!DOCTYPE html>
 <html>
-    <head><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>Home | LPL</title>
-    </head>
-    <body>
-        <div id="container">
-            <div class="header" id="header">
-                <ul class="ul-tag">
-                     <a href = "/html/about.html">About</a>
-                     <a href = "/html/tickets.html">Tickets</a>
-                     <a href = "/html/videos.html">Videos</a>
-                     <a href = "/html/matches.html">Matches</a>
-                     <a href = "/html/home.html">Home</a>
-                     <img src="LPL Logo.jpg"/>
-                </ul>
-            </div>
+
+<head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Home | LPL</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="header" id="header">
+            <ul class="ul-tag">
+                <a href="html/about.html">About</a>
+                <a href="html/tickets.html">Tickets</a>
+                <a href="html/videos.html">Videos</a>
+                <a href="html/matches.html">Matches</a>
+                <a href="index.html">Home</a>
+                <img src="LPL Logo.jpg" />
+            </ul>
         </div>
-        <script src="/js/sticky_header.js"></script>
-    </body>
+    </div>
+    <div class="container">
+        <img class="main-cover" src="assets/home-cover.jpg" alt="cover image">
+        <div class="top-left">The kind of battle<br>we love<br>
+            <form action="html/matches.html">
+                <button type="submit" class="schedule-button">View Schedule</button></form>
+        </div>
+    </div>
+    <div class="container live-container">
+        <div class="team-1">Colombo Kings</div>
+        <div class="vs">vs</div>
+        <div class="team-2">Galle Gladiators</div>
+    </div>
+    <div class="container live-container">
+        <img class="logo" src="assets/Colombo kings.png" alt="cover image">
+        <div class="match-card">
+            <div class="live-card">L I V E</div>
+            <div class="batting-text-1">BATTING</div>
+            <div class="batting-text-2">BOWLING</div>
+            <div class="score-text-1">123/2</div>
+            <div class="score-text-2">368/10</div>
+            <div class="over-text-1">OVER: 21.0</div>
+            <div class="over-text-2">OVER: 50.0</div>
+            <div class="rr-text-1">RR: 5.43</div>
+            <div class="rr-text-2">RR: 3.20</div>
+        </div>
+        <img class="logo" src="assets/Galle Gladiators.png" alt="cover image">
+    </div>
+    <div class="news-section">
+        <div class="news-topic">News</div>
+        <div class="news-container">
+            <div class="news fade">
+                <div class="news-cards">
+                    <div class="news-card-1">
+                        <img class="news-image-1" src="assets/News 1.png" alt="cover image">
+                        <div class="news-topic-1">Colombo Kings won by 2 wickets</div>
+                        <p class="news-desc-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation
+                            ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat…..</p>
+                    </div>
+                    <div class="news-card-1">
+                        <img class="news-image-1" src="assets/News 2.png" alt="cover image">
+                        <div class="news-topic-1">Zayed Mark scores a century</div>
+                        <p class="news-desc-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation
+                            ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat…..</p>
+                    </div>
+                </div>
+            </div>
+            <div class="news fade">
+                <div class="news-cards">
+                    <div class="news-card-1">
+                        <img class="news-image-1" src="assets/News 3.png" alt="cover image">
+                        <div class="news-topic-1">Hattrick by Derek Doe</div>
+                        <p class="news-desc-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation
+                            ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat…..</p>
+                    </div>
+                    <div class="news-card-1">
+                        <img class="news-image-1" src="assets/News 4.png" alt="cover image">
+                        <div class="news-topic-1">Jaffna Stallions won by 32 runs</div>
+                        <p class="news-desc-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation
+                            ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat…..</p>
+                    </div>
+                </div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+    <div class="matches-section">
+        <div class="matches-topic">Previous Matches</div>
+        <div class="matches-container">
+            <div class="matches fade">
+                <div class="matches-cards">
+                    <div class="matches-card-1">
+                        <img class="matches-image-1" src="assets/Match 1.jpg" alt="cover image">
+                        <div class="matches-topic-1">Colombo Kings vs Kandy Tuskers</div>
+                        <p class="matches-desc-1">10.22.2020</p>
+                    </div>
+                    <div class="matches-card-1">
+                        <img class="matches-image-1" src="assets/Match 2.jpg" alt="cover image">
+                        <div class="matches-topic-1">Jaffna Stallions vs Galle Gladiators</div>
+                        <p class="matches-desc-1">10.20.2020</p>
+                    </div>
+                </div>
+            </div>
+            <div class="matches fade">
+                <div class="matches-cards">
+                    <div class="matches-card-1">
+                        <img class="matches-image-1" src="assets/Match 3.png" alt="cover image">
+                        <div class="matches-topic-1">Colombo Kings vs Galle Gladiators</div>
+                        <p class="matches-desc-1">10.18.2020</p>
+                    </div>
+                    <div class="matches-card-1">
+                        <img class="matches-image-1" src="assets/Match 4.png" alt="cover image">
+                        <div class="matches-topic-1">Jaffna Stallions vs Kandy Tuskers</div>
+                        <p class="matches-desc-1">10.14.2020</p>
+                    </div>
+                </div>
+            </div>
+            <a class="prev1" onclick="plusSlides1(-1)">&#10094;</a>
+            <a class="next1" onclick="plusSlides1(1)">&#10095;</a>
+        </div>
+    </div>
+    <!-- <div class="">
+        <div class="platinum-sponsor-text">Platinum Sponsor</div>
+        <div class="platinum-sponsor-logo">Platinum Sponsor</div>
+    </div> -->
+    <script src="js/sticky_header.js"></script>
+    <script src="js/carousel_script.js"></script>
+</body>
+
 </html>

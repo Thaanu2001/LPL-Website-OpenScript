@@ -1,7 +1,7 @@
 body{
     margin: 0px !important;
     padding: 0px !important;
-    background-image: url('/assets/videos-backgroound-image.png');
+    background-image: url('../assets/videos-backgroound-image.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
