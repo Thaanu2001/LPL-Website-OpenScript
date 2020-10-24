@@ -1,0 +1,67 @@
+body {
+    margin: 0px !important;
+    padding: 0px !important;
+    background-image: url('/assets/about-backgroound-image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 100px;
+}
+
+img {
+    width: 100%;
+    /* height: 50%; */
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.top-left {
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    font-size: 60px;
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 700;
+}
+
+.match-card {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.1);
+    background-color: #D6D6D6;
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 250px;
+}
+
+.card-topic {
+    font-size: 40px;
+    padding-top: 40px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    /* font-size: 60px;  */
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    /* font-size: 60px;  */
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.LPL-logo-div{
+    text-align: center;
+}
+.LPL-logo{
+    margin-top: 30px;
+    width: 40%;
+}
